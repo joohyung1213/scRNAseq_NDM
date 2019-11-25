@@ -57,7 +57,7 @@ Installation of **OpenMP API**
 
 ## Compile and Execute
 
-**Windows** : Execute by Visual Studio CUDA Project
+**Windows** : Execute by Visual Studio CUDA Project  
 **Linux** : $ nvcc NDM_v1.cu -std=c++14 -Xcompiler=-fopenmp -O2
 
 -O2 is compile optimization option of g++ in linux. ([https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html](https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html)) ([https://docs.nvidia.com/cuda/cuda-compiler-driver-nvcc/index.html#ptxas-options-opt-level](https://docs.nvidia.com/cuda/cuda-compiler-driver-nvcc/index.html#ptxas-options-opt-level))
