@@ -20,7 +20,7 @@ It requires memory size of only buffer size for reading input file.
 
 NDM_v1.cu is recommended if system has enough main memory to store output file.
 
-NDM_v1.cu is recommended if system has less main memory to store output file.
+NDM_v2.cu is recommended if system has less main memory to store output file.
 
 ## Input File
 
