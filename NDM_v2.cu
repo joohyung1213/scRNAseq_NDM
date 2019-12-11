@@ -191,8 +191,8 @@ string InitializeFunction(string filepath, double boxsize_ratio, double alpha) {
 		buffer_size_gene_num = ceil(GigaByte_in_Byte / (cell_num * sizeof(double)) * buffer_size_in_GB);
 		buffer_size_gene_num = buffer_size_gene_num < gene_num ? buffer_size_gene_num : gene_num;
 
-		vector <int> NDM_line(cell_num, 0);
-		for (i = 0; i < gene_num; i++)NDM.push_back(NDM_line);
+		// vector <int> NDM_line(cell_num, 0);
+		// for (i = 0; i < gene_num; i++)NDM.push_back(NDM_line);
 
 	}
 
